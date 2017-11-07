@@ -6,7 +6,7 @@ public class CarViewer {
 		frame.setSize(600, 600);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		CarComponent component = new CarComponent();
+		//CarComponent component = new CarComponent();
 		
 		
 		frame.add(component);		
