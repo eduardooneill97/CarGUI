@@ -6,9 +6,18 @@ import java.awt.geom.Line2D;
 public class Car {
 	private int xPos;
 	private int yPos;
-	private int width;
-	private int height;
+	private int width = 60;
+	private int height = 30;
+	private int direction = 1;
 	
+	public int getDirection() {
+		return direction;
+	}
+
+	public void setDirection(int direction) {
+		this.direction = direction;
+	}
+
 	public Car(int x, int y){
 		this.setxPos(x);
 		this.setyPos(y);
